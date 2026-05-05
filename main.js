@@ -63,7 +63,7 @@ contactForm.addEventListener("submit", (event) => {
   const message = document.getElementById("message").value.trim();
 
   // Cambia este número por tu WhatsApp real con indicativo de Colombia.
-  const businessWhatsApp = "573217310725";
+  const businessWhatsApp = "57322146388";
 
   const text = `Hola, quiero cotizar una página web.%0A%0ANombre: ${name}%0AWhatsApp: ${phone}%0AServicio: ${service}%0AIdea: ${message}`;
   const url = `https://wa.me/${businessWhatsApp}?text=${text}`;
