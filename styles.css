@@ -625,22 +625,7 @@ header {
   font-weight: 900;
 }
 
-.portfolio-item {
-  min-height: 260px;
-  border-radius: 26px;
-  padding: 24px;
-  background: linear-gradient(135deg, var(--indigo-950), var(--indigo-700));
-  color: var(--white);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  overflow: hidden;
-  position: relative;
-}
-
-.portfolio-item.rose h3 {
-  margin-top: 18px;
-} .portfolio-icon {
+.portfolio-item.rose .portfolio-icon {
   width: 100%;
   max-width: 410px;
   height: 170px;
