@@ -638,7 +638,7 @@ header {
   position: relative;
 }
 
-.portfolio-item.rose .portfolio-icon {
+.portfolio-item.all .portfolio-icon {
   width: 100%;
   max-width: 410px;
   height: 170px;
@@ -651,7 +651,7 @@ header {
   background: rgba(255, 255, 255, 0.08);
 }
 
-.portfolio-item.rose h3 {
+.portfolio-item.all h3 {
   margin-top: 18px;
 }
 
@@ -666,7 +666,7 @@ header {
   background: rgba(var(--indigo-500-rgb), 0.22);
 }
 
-.portfolio-item.rose::after {
+.portfolio-item.all::after {
   background: rgba(var(--pink-400-rgb), 0.28);
 }
 
